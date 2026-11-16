@@ -1,5 +1,5 @@
 export const CHECKOUT_LINKS = {
-  basic: "https://pay.cakto.com.br/87iq2nh_1329336",
+  basic: "https://pay.cakto.com.br/366hkzt",
   premium: "https://pay.cakto.com.br/87iq2nh_1329336",
   premiumDownsell: "https://pay.cakto.com.br/xdhfndq",
 } as const;
