@@ -3,6 +3,7 @@ import {
   generateTestimonialSvgUri,
   generateWorksheetSvgUri,
 } from "./svgArtwork";
+import atividadesMesaFoto from "@/src/assets/images/atividades_mesa_foto_1794796959773.jpg";
 
 export interface SlideItem {
   id: string;
@@ -14,7 +15,7 @@ export interface SlideItem {
 export const ACTIVITY_SLIDES: SlideItem[] = [
   {
     id: "foto-impressa",
-    src: "/src/assets/images/atividades_mesa_foto_1794796959773.jpg",
+    src: atividadesMesaFoto,
     alt: "Folhas impressas do Kit +10.000 Atividades Pedagógicas com alfabeto, formas geométricas e numerais",
     caption: "Material impresso pronto para sala de aula e casa",
   },

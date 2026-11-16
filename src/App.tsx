@@ -31,6 +31,10 @@ import {
   SOCIAL_PROOF_SLIDES,
 } from "@/src/data/landingData";
 import { CHECKOUT_LINKS, buildCheckoutUrl } from "@/src/utils/utm";
+import heroKitMockupImg from "@/src/assets/images/hero_kit_mockup_1794796957094.jpg";
+import comoReceberAcessoImg from "@/src/assets/images/como_receber_acesso_1794796958210.jpg";
+import planoBasicoMockupImg from "@/src/assets/images/plano_basico_mockup_1794796957933.jpg";
+import planoPremiumMockupImg from "@/src/assets/images/plano_premium_mockup_1794796958537.jpg";
 
 const AVATAR_PROFILES = [
   { initials: "CM", bg: "#2453E0", label: "Professora Camila" },
@@ -212,7 +216,7 @@ export default function App() {
                 </div>
               ) : (
                 <img
-                  src="/src/assets/images/hero_kit_mockup_1794796957094.jpg"
+                  src={heroKitMockupImg}
                   alt="Mockup completo do Kit com mais de 10.000 Atividades Pedagógicas em PDF em tablet e cadernos impressos"
                   referrerPolicy="no-referrer"
                   onError={() => setHeroImgError(true)}
@@ -355,7 +359,7 @@ export default function App() {
                 </div>
               ) : (
                 <img
-                  src="/src/assets/images/como_receber_acesso_1794796958210.jpg"
+                  src={comoReceberAcessoImg}
                   alt="Fluxo explicativo: confirmação no celular, acesso às pastas organizadas em PDF e impressão imediata das atividades"
                   loading="lazy"
                   referrerPolicy="no-referrer"
@@ -517,7 +521,7 @@ export default function App() {
                   </div>
                 ) : (
                   <img
-                    src="/src/assets/images/plano_basico_mockup_1794796957933.jpg"
+                    src={planoBasicoMockupImg}
                     alt="Mockup do Kit Básico com mais de 10.000 Atividades Pedagógicas em PDF"
                     loading="lazy"
                     referrerPolicy="no-referrer"
@@ -654,7 +658,7 @@ export default function App() {
                   </div>
                 ) : (
                   <img
-                    src="/src/assets/images/plano_premium_mockup_1794796958537.jpg"
+                    src={planoPremiumMockupImg}
                     alt="Mockup completo do Kit Premium com 15.000 Atividades Pedagógicas, Inglês, TEA/TDAH e 6 apostilas bônus"
                     loading="lazy"
                     referrerPolicy="no-referrer"
