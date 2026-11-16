@@ -1,7 +1,7 @@
 export const CHECKOUT_LINKS = {
-  basic: "https://pay.kiwify.com.br/kit-basico-atividades",
-  premium: "https://pay.kiwify.com.br/kit-premium-atividades",
-  premiumDownsell: "https://pay.kiwify.com.br/kit-premium-oferta-especial",
+  basic: "https://pay.cakto.com.br/87iq2nh_1329336",
+  premium: "https://pay.cakto.com.br/87iq2nh_1329336",
+  premiumDownsell: "https://pay.cakto.com.br/xdhfndq",
 } as const;
 
 export function buildCheckoutUrl(baseUrl: string): string {
